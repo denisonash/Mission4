@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{03B2BF20-CEDA-428F-A9B6-9AAD45FDDCB0}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Mission4/Controllers/HomeController.cs" Line="46" Column="1" />
-      <File FileName="Mission4/Views/Home/NewMovieForm.cshtml" Line="15" Column="37" />
-      <File FileName="Mission4/Views/Home/Confirmation.cshtml" Line="9" Column="46" />
-      <File FileName="Mission4/Models/NewMovieContext.cs" Line="45" Column="33" />
-      <File FileName="Mission4/Models/NewMovie.cs" Line="1" Column="1" />
+      <File FileName="Mission4/Controllers/HomeController.cs" Line="54" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission4" expanded="True">
             <Node name="Mission4" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="NewMovie.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />

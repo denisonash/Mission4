@@ -40,11 +40,19 @@ namespace Mission4.Controllers
         [HttpPost]
         public IActionResult NewMovieForm(NewMovie mov)
         {
-            // Add changes to database
-            movieContext.Add(mov);
-            // Save Changes to database
-            movieContext.SaveChanges();
-            return View("Confirmation", mov);
+            if (ModelState.IsValid)
+            {
+                // Add changes to database
+                movieContext.Add(mov);
+                // Save Changes to database
+                movieContext.SaveChanges();
+                return View("Confirmation", mov);
+            }
+            else
+            {
+                return View(mov);
+            }
+            
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

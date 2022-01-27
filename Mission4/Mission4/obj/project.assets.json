@@ -1206,7 +1206,7 @@
       "outputPath": "/Users/ashleydenison/Documents/GitHub/Mission4/Mission4/Mission4/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ashleydenison/.nuget/NuGet/NuGet.Config"
+        "/Users/ashleydenison/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
